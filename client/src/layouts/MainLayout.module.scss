@@ -1,0 +1,35 @@
+@import "../assets/styles/variables.scss";
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  background: $color-dark;
+}
+
+.content {
+  max-width: 1200px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__title {
+    color: $color-white;
+  }
+
+  &__text {
+    color: $color-white;
+  }
+}
+
+.content-body {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
